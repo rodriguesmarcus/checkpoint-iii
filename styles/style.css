@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+body,
+html {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+header nav img {
+  height: 50px;
+  width: 167px;
+}
+
+footer {
+  background-color: #171717;
+  padding: 24px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer .card {
+  color: #fff;
+  background-color: transparent;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../assets/Rectangle_2.png");
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Font styles */
+  color: #fff;
+}
+
+.parallax h1 {
+  color: tomato;
+}
+
+.parallax p {
+  font-weight: 200;
+}
+
+main .card {
+  max-height: 407px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+main .card img {
+  max-height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+main .card-body {
+  background-color: white;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */
