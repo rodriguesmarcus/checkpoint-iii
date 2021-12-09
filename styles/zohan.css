@@ -1,0 +1,13 @@
+.cover-container {
+  height: 70%;
+}
+
+.cover-container .parallax {
+  /* The image used */
+  background-image: url("../assets/zohan-bg.jpg");
+}
+
+.checked {
+  color: orange;
+}
+/*# sourceMappingURL=zohan.css.map */
