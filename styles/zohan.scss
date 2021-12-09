@@ -10,3 +10,16 @@
 .checked {
   color: orange;
 }
+
+iframe {
+  width: 100%;
+  border-radius: 20px;
+  height: 50%;
+  display: inline-block;
+}
+
+.descricao {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
