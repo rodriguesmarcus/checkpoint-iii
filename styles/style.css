@@ -5,6 +5,7 @@ html {
   font-family: "Roboto", sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 header nav img {
@@ -63,6 +64,8 @@ main .card {
   border-radius: 10px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 main .card img {
@@ -70,6 +73,18 @@ main .card img {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
+}
+
+main .card p {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+main .card:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
 }
 
 main .card-body {
