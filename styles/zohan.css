@@ -1,3 +1,7 @@
+body, html {
+  height: 100%;
+}
+
 .cover-container {
   height: 70%;
 }
@@ -11,21 +15,7 @@
   color: orange;
 }
 
-iframe {
-  width: 100%;
+div iframe {
   border-radius: 20px;
-  height: 50%;
-  display: inline-block;
-}
-
-.descricao {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 20px;
 }
 /*# sourceMappingURL=zohan.css.map */
